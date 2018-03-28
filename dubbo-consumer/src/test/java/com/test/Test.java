@@ -15,7 +15,7 @@ public class Test {
         context.start();
         DemoService demoService = (DemoService) context.getBean("demoService");
 
-        System.out.println(demoService.sayHello("哈哈哈"));
+        System.out.println(demoService.sayHello("哈哈哈Dubbo"));
         try {
             System.in.read();
         } catch (IOException e) {
